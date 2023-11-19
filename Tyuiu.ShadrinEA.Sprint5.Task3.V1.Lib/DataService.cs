@@ -19,7 +19,7 @@ namespace Tyuiu.ShadrinEA.Sprint5.Task3.V1.Lib
             double z =  (Math.Pow((double)x, 3) - 8) / (2 * Math.Pow((double)x, 2));
 
             z = Math.Round(z, 3);
-
+            
             using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate), Encoding.UTF8))
             {
                 writer.Write(BitConverter.GetBytes(z));
