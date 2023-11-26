@@ -12,7 +12,7 @@ namespace Tyuiu.ShadrinEA.Sprint5.Task5.V7.Lib
     {
         public double LoadFromDataFile(string path)
         {
-            double min = 1000000000;
+           
             using (StreamReader rd = new StreamReader(path))
 
             {
