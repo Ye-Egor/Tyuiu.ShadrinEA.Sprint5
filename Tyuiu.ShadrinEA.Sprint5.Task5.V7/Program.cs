@@ -38,7 +38,7 @@ namespace Tyuiu.ShadrinEA.Sprint5.Task5.V7
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             double res = ds.LoadFromDataFile(path);
-            Console.WriteLine(res);
+            Console.WriteLine(res);  
             Console.ReadKey();
 
 

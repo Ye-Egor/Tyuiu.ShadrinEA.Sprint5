@@ -25,7 +25,7 @@ namespace Tyuiu.ShadrinEA.Sprint5.Task5.V7.Lib
                     { 
                         int t = Convert.ToInt32(line);
                        while (n <= t)
-                        {
+                        {  
                             k = k * n;
                             n++;
                         }
