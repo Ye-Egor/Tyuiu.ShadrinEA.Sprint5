@@ -34,7 +34,7 @@ namespace Tyuiu.ShadrinEA.Sprint5.Task7V21.Lib
                         }
                     }
                 }
-                File.AppendAllText(pathsave, strline + Environment.NewLine);
+                File.AppendAllText(pathsave, strline + Environment.NewLine); 
                 strline = "";
 
 

@@ -15,7 +15,7 @@ namespace Tyuiu.ShadrinEA.Sprint5.Task7V21
             DataService ds = new DataService();
 
             Console.Title = "Спринт #5 | Выполнил: Шадрин Е.А | ИСТНб-23-1";
-            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("***************************************************************************"); 
             Console.WriteLine("* Спринт #5                                                               *");
             Console.WriteLine("* Задание #7                                                              *");
             Console.WriteLine("* Вариант #21                                                             *");
